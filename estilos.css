@@ -1,3 +1,4 @@
+/* ESTILIZAÇÃO BODY */
 *{
     padding: 0;
     margin: 0;
@@ -5,6 +6,38 @@
     color: #F1F1F1;
 }
 
-h1 {
-    background-color: pink;
+/* ESTILIZAÇÃO HEADER */
+
+.header{
+    padding: 15px; /* Espaçamento entre os elementos  */
+    border-bottom: 3px solid #32b9cd; /*Bordar em baixo do header*/
+}
+
+/* ESTILIZAÇÃO CONTAINER */
+.container{
+    margin: 0 auto;
+    width: 80%; /* Largura */
+    /*  border: 5px solid red; "Borda solida vermelha"  */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ESTILIZAÇÃO H1 */
+h1{
+    color: #32b9cd;
+    font-weight: 800; /*Como se fosse um bold*/
+}
+
+/* ESTILIZAÇÃO UL */
+ul{
+    display: flex; /* Alinhas os itens */
+    width: 300px; /* Largura */
+    justify-content: space-between; /* espaço entre os itens*/
+    list-style: none;
+}
+
+/* ESTILIZAÇÃO LI */
+li{
+    color: #e3b602;
 }
