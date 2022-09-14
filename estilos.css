@@ -1,22 +1,26 @@
 /* ESTILIZAÇÃO BODY */
-*{
+* {
     padding: 0;
     margin: 0;
-    background-color: black;
     color: #F1F1F1;
 }
 
 /* ESTILIZAÇÃO HEADER */
 
-.header{
-    padding: 15px; /* Espaçamento entre os elementos  */
-    border-bottom: 3px solid #32b9cd; /*Bordar em baixo do header*/
+.header {
+    /* Espaçamento entre os elementos  */
+    padding: 15px;
+    /*Bordar em baixo do header*/
+    border-bottom: 3px solid #32b9cd;
+    /* Cor do Header */
+    background-color: black;
 }
 
 /* ESTILIZAÇÃO CONTAINER */
-.container{
+.container {
     margin: 0 auto;
-    width: 80%; /* Largura */
+    /* Largura */
+    width: 80%;
     /*  border: 5px solid red; "Borda solida vermelha"  */
     display: flex;
     align-items: center;
@@ -24,20 +28,69 @@
 }
 
 /* ESTILIZAÇÃO H1 */
-h1{
+h1 {
     color: #32b9cd;
-    font-weight: 800; /*Como se fosse um bold*/
+    font-weight: 800;
+    /*Como se fosse um bold*/
 }
 
 /* ESTILIZAÇÃO UL */
-ul{
-    display: flex; /* Alinhas os itens */
-    width: 300px; /* Largura */
-    justify-content: space-between; /* espaço entre os itens*/
+ul {
+    display: flex;
+    /* Alinhas os itens */
+    width: 300px;
+    /* Largura */
+    justify-content: space-between;
+    /* espaço entre os itens*/
     list-style: none;
 }
 
 /* ESTILIZAÇÃO LI */
-li{
+li {
     color: #e3b602;
+}
+
+.banner {
+    background-image: url(./assets/img/bg-jelly-fish-para_outras_pags.png);
+    padding: 100px 0;
+}
+
+.banner .container { /* O container que tiver dentro do banner recebera esses atributos*/
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner p{
+    width: 280px;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.social{
+    margin: 50px 0;
+}
+
+.social .caixas, .caixa {
+    display: flex;
+}
+
+.caixa{
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.caixa h4 {
+    margin: 15px 0;
+    color: #e6005a;
+}
+
+.caixa p {
+    text-align: center;
+    color: black;
+}
+
+.caixa img {
+    width: 170px;
 }
