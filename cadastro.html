@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Casdatrar</title>
 </head>
 <body>
     <!-- HEADER -->
@@ -25,22 +25,29 @@
         </div>
     </div>
 
+    <!-- BANNER -->
     <div class="banner">
         <div class="container">
             <div class="caixa-formulario">
-                <h2>Olá seja Bem Vindo!</h2>
-
+                <h2>Bem-Vindo!</h2>
                 <div class="campo">
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" placeholder="email@email.com">
+                    <label for="Nome">Nome: </label>
+                    <input type="text" placeholder="Seu Nome">
                 </div>
-
                 <div class="campo">
-                    <label for="password">Senha:</label>
-                    <input type="password" placeholder="*************">
+                    <label for="email">E-mail: </label>
+                    <input type="email" placeholder="meu@email.com">
                 </div>
-                <button>Enviar</button>
-            </div>     
+                <div class="campo">
+                    <label for="senha">Senha: </label>
+                    <input type="password" placeholder="******">
+                </div>
+                <div class="campo">
+                    <label for="ConfirmaSenha">Confirmação da Senha: </label>
+                    <input type="password" placeholder="******">
+                </div>
+                <button>Cadastrar</button>
+            </div>
         </div>
     </div>
 
@@ -50,6 +57,5 @@
             <p>Desenvolvido pelo melhor SPTecher - &copy; Copyright</p>
         </div>
     </div>
-    
 </body>
 </html>
